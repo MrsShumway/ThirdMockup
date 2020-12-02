@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Interactive Room Display | Codrops</title>
+		<meta name="description" content="An experimental interactive room slideshow based on the prototype concept by Bilal Mechairia's Dribbble shot 'Spaces'" />
+		<meta name="keywords" content="room, slideshow, 3d, perspective, animation, css, javascript, web development" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/icomoon/icomoon.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/animations.css" />
+		<script src="js/modernizr-custom.js"></script>
+	</head>
+	<body style="background-color: gray">
+
+		<p class="info info--size">View on a larger screen to see the 3D display</p>
+		<p class="info info--support">Your browser does not support preserve-3d!</p>
+		<div id="slideshow" class="slideshow">
+			<div class="slide">
+				<div class="scene">
+
+
+					<div class="views">
+						<div class="view">
+							<img class="view__img" src="img/kitchen/a.png" alt="Side" />
+							<div class="item item--shakers">
+								<img class="item__img" src="img/kitchen/shakers.png" alt="Shakers" data-transform-z="80" />
+								<div class="item__info">
+									<h3 class="item__title">Your Files</h3>
+									</div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+							<div class="item item--coffeemachine">
+								<img class="item__img" src="img/kitchen/coffeemachine.png" alt="Coffee Machine" data-transform-z="60" />
+								<div class="item__info">
+									<h3 class="item__title">Navigate</h3>
+									</div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+						</div>
+						<div class="view view--rotate view--rotate-left">
+							<img class="view__img" src="img/kitchen/b.png" alt="Front" />
+							<div class="item item--bowls">
+								<img class="item__img" src="img/kitchen/bowlset.png" alt="Bowl Set" data-transform-z="40" />
+								<div class="item__info">
+									<h3 class="item__title">Write</h3>
+							  </div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="slide">
+				<div class="scene">
+
+					<div class="views">
+						<div class="view view--rotate view--rotate-right">
+							<img class="view__img" src="img/living/a.png" alt="Front" />
+							<div class="item item--pillow">
+								<img class="item__img" src="img/living/pillow.png" alt="Vase" data-transform-z="60" />
+								<div class="item__info">
+									<h3 class="item__title">EXIT to Campus</h3>
+								</div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+							<div class="item item--lamp">
+								<img class="item__img" src="img/living/lamp.png" alt="Lamp" data-transform-z="60" />
+								<div class="item__info">
+									<h3 class="item__title">Your PROFILE</h3>
+									</div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+							<div class="item item--silvervase">
+								<img class="item__img" src="img/living/silvervase.png" alt="Silver Vase" data-transform-z="60" />
+								<div class="item__info">
+									<h3 class="item__title">FRIENDS</h3>
+								</div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+						</div>
+						<div class="view">
+							<img class="view__img" src="img/living/b.png" alt="Side" />
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="slide">
+				<div class="scene">
+
+
+					<div class="views">
+						<div class="view">
+							<img class="view__img" src="img/kitchen/a.png" alt="Side" />
+							<div class="item item--shakers">
+								<img class="item__img" src="img/kitchen/shakers.png" alt="Shakers" data-transform-z="80" />
+								<div class="item__info">
+									<h3 class="item__title">Your Files</h3>
+									</div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+							<div class="item item--coffeemachine">
+								<img class="item__img" src="img/kitchen/coffeemachine.png" alt="Coffee Machine" data-transform-z="60" />
+								<div class="item__info">
+									<h3 class="item__title">Navigate</h3>
+									</div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+						</div>
+						<div class="view view--rotate view--rotate-left">
+							<img class="view__img" src="img/kitchen/b.png" alt="Front" />
+							<div class="item item--bowls">
+								<img class="item__img" src="img/kitchen/bowlset.png" alt="Bowl Set" data-transform-z="40" />
+								<div class="item__info">
+									<h3 class="item__title">Write</h3>
+							  </div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="slide">
+				<div class="scene">
+
+
+					<div class="views">
+						<div class="view view--rotate view--rotate-right">
+							<img class="view__img" src="img/living/a.png" alt="Front" />
+							<div class="item item--pillow">
+								<img class="item__img" src="img/living/pillow.png" alt="Vase" data-transform-z="60" />
+								<div class="item__info">
+									<h3 class="item__title">EXIT to Campus</h3>
+								</div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+							<div class="item item--lamp">
+								<img class="item__img" src="img/living/lamp.png" alt="Lamp" data-transform-z="60" />
+								<div class="item__info">
+									<h3 class="item__title">Your PROFILE</h3>
+									</div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+							<div class="item item--silvervase">
+								<img class="item__img" src="img/living/silvervase.png" alt="Silver Vase" data-transform-z="60" />
+								<div class="item__info">
+									<h3 class="item__title">FRIENDS</h3>
+								</div>
+								<button class="button button--close"><i class="icon icon--close"></i><span class="text-hidden">Close</span></button>
+							</div>
+						</div>
+						<div class="view">
+							<img class="view__img" src="img/living/b.png" alt="Side" />
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<nav class="nav">
+				<a href="#" class="nav__item"><span class="text-hidden">The Dining Room</span></a>
+				<a href="#" class="nav__item"><span class="text-hidden">White Paper</span></a>
+				<a href="#" class="nav__item"><span class="text-hidden">The Bathroom</span></a>
+				<a href="#" class="nav__item"><span class="text-hidden">The Office</span></a>
+			</nav>
+			<div class="titles">
+				<h2 class="title">Noir<span class="title__sub">Investigate</span></h2>
+				<h2 class="title">White Paper<span class="title__sub">Write</span></h2>
+				<h2 class="title">Noir<span class="title__sub">Investigate</span></h2>
+				<h2 class="title">White Paper<span class="title__sub">Write</span></h2>
+			</div>
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+		(function() {
+			var slideshow = new Slideshow(document.getElementById('slideshow'));
+		})();
+		</script>
+	</body>
+</html>
